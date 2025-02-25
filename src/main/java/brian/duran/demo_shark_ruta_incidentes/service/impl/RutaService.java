@@ -79,14 +79,16 @@ public class RutaService implements IRutaService {
         rutaDto.setDistancia(existRuta.getDistancia());
 
         List<RutaDto> interseccionesDto = new ArrayList<>();
-        for (Ruta interseccion : existRuta.getIntersecciones()) {
-            RutaDto interseccionDto = new RutaDto();
-            interseccionDto.setId(interseccion.getId());
-            interseccionDto.setNombre(interseccion.getNombre());
-            interseccionDto.setOrigen(interseccion.getOrigen());
-            interseccionDto.setDestino(interseccion.getDestino());
-            interseccionDto.setDistancia(interseccion.getDistancia());
-            interseccionesDto.add(interseccionDto);
+        if(existRuta.getIntersecciones() != null) {
+            for (Ruta interseccion : existRuta.getIntersecciones()) {
+                RutaDto interseccionDto = new RutaDto();
+                interseccionDto.setId(interseccion.getId());
+                interseccionDto.setNombre(interseccion.getNombre());
+                interseccionDto.setOrigen(interseccion.getOrigen());
+                interseccionDto.setDestino(interseccion.getDestino());
+                interseccionDto.setDistancia(interseccion.getDistancia());
+                interseccionesDto.add(interseccionDto);
+            }
         }
 
         rutaDto.setIntersecciones(interseccionesDto);
