@@ -60,32 +60,50 @@ Al iniciar el servicio, la aplicación carga algunos incidentes de ejemplo. A co
 ]
 ```
 
-###Endpoints de la API
+### Endpoints de la API
 
 La aplicación expone una serie de endpoints para interactuar con el backend. A continuación, se muestran los endpoints agrupados por sus respectivos controladores. Para más detalles y para interactuar con los endpoints, accede a la documentación completa en Swagger UI mediante la siguiente URL: http://localhost:8080/doc/swagger-ui/index.html.
 
-** Tipo Incidente Controller **
+**Tipo Incidente Controller**
 ```bash
-GET /api/v1/tipo_incidentes: Obtener todos los tipos de incidentes.
+GET /api/v1/tipo_incidentes
 ```
 ```bash
-PUT /api/v1/tipo_incidentes: Actualizar un tipo de incidente.
+PUT /api/v1/tipo_incidentes
 ```
-POST /api/v1/tipo_incidentes: Crear un nuevo tipo de incidente.
-GET /api/v1/tipo_incidentes/{id}: Obtener un tipo de incidente específico.
-DELETE /api/v1/tipo_incidentes/{id}: Eliminar un tipo de incidente.
-GET /api/v1/tipo_incidentes/tipo: Obtener los tipos de incidentes.
-GET /api/v1/tipo_incidentes/prioridad: Obtener las prioridades de los incidentes.
-Ruta Controller
+```bash
+POST /api/v1/tipo_incidentes
+```
+```bash
+GET /api/v1/tipo_incidentes/{id}
+```
+```bash
+DELETE /api/v1/tipo_incidentes/{id}
+```
+```bash
+GET /api/v1/tipo_incidentes/tipo
+```
+```bash
+GET /api/v1/tipo_incidentes/prioridad
+```
+
+**Ruta Controller*
+```bash
 GET /api/v1/rutas: Obtener todas las rutas.
+```
+```bash
 PUT /api/v1/rutas: Actualizar una ruta.
+```
 POST /api/v1/rutas: Crear una nueva ruta.
 DELETE /api/v1/rutas: Eliminar una ruta.
 GET /api/v1/rutas/{name}: Obtener una ruta por nombre.
 GET /api/v1/rutas/id: Obtener una ruta por ID.
 DELETE /api/v1/rutas/{nombre}: Eliminar una ruta por nombre.
-Incidente Controller
+
+**Incidente Controller**
+```bash
 GET /api/v1/incidentes: Obtener todos los incidentes.
+```
 POST /api/v1/incidentes: Crear un nuevo incidente.
 GET /api/v1/incidentes/{id}: Obtener un incidente específico.
 DELETE /api/v1/incidentes/{id}: Eliminar un incidente.
@@ -97,3 +115,13 @@ GET /api/v1/incidentes/reporte: Obtener un reporte de los incidentes.
 
 ### Captura de Swagger UI
 Para interactuar con los endpoints, puedes acceder a la documentación completa de la API a través de Swagger UI. Aquí tienes una captura de cómo se muestra:
+
+![image](https://github.com/user-attachments/assets/a29acd88-b52f-41d3-a608-8188f8e8273d)
+
+![image](https://github.com/user-attachments/assets/146bdd35-867e-498d-8048-aeb94bd2e08c)
+
+### Demo
+
+![video](https://drive.google.com/file/d/1gtAoT-P3cbvDASFbRegV0YJ0upQKUWHh/view?usp=drive_link)
+
+
