@@ -89,29 +89,55 @@ GET /api/v1/tipo_incidentes/prioridad
 
 **Ruta Controller*
 ```bash
-GET /api/v1/rutas: Obtener todas las rutas.
+GET /api/v1/rutas
 ```
 ```bash
-PUT /api/v1/rutas: Actualizar una ruta.
+PUT /api/v1/rutas
 ```
-POST /api/v1/rutas: Crear una nueva ruta.
-DELETE /api/v1/rutas: Eliminar una ruta.
-GET /api/v1/rutas/{name}: Obtener una ruta por nombre.
-GET /api/v1/rutas/id: Obtener una ruta por ID.
-DELETE /api/v1/rutas/{nombre}: Eliminar una ruta por nombre.
+```bash
+POST /api/v1/rutas
+```
+```bash
+DELETE /api/v1/rutas
+```
+```bash
+GET /api/v1/rutas/{name}
+```
+```bash
+GET /api/v1/rutas/id
+```
+```bash
+DELETE /api/v1/rutas/{nombre}
+```
 
 **Incidente Controller**
 ```bash
-GET /api/v1/incidentes: Obtener todos los incidentes.
+GET /api/v1/incidentes
 ```
-POST /api/v1/incidentes: Crear un nuevo incidente.
-GET /api/v1/incidentes/{id}: Obtener un incidente específico.
-DELETE /api/v1/incidentes/{id}: Eliminar un incidente.
-GET /api/v1/incidentes/tipoPrioridad: Obtener las prioridades de los incidentes.
-GET /api/v1/incidentes/tipoIncidente: Obtener los tipos de incidentes.
-GET /api/v1/incidentes/rutas: Obtener las rutas relacionadas con los incidentes.
-GET /api/v1/incidentes/rutas/kilometro: Obtener incidentes por kilómetro de ruta.
-GET /api/v1/incidentes/reporte: Obtener un reporte de los incidentes.
+```bash
+POST /api/v1/incidentes
+```
+```bash
+GET /api/v1/incidentes/{id}
+```
+```bash
+DELETE /api/v1/incidentes/{id}
+```
+```bash
+GET /api/v1/incidentes/tipoPrioridad
+```
+```bash
+GET /api/v1/incidentes/tipoIncidente
+```
+```bash
+GET /api/v1/incidentes/rutas
+```
+```bash
+GET /api/v1/incidentes/rutas/kilometro
+```
+```bash
+GET /api/v1/incidentes/reporte
+```
 
 ### Captura de Swagger UI
 Para interactuar con los endpoints, puedes acceder a la documentación completa de la API a través de Swagger UI. Aquí tienes una captura de cómo se muestra:
