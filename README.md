@@ -148,6 +148,6 @@ Para interactuar con los endpoints, puedes acceder a la documentación completa 
 
 ### Demo
 
-![video](https://drive.google.com/file/d/1gtAoT-P3cbvDASFbRegV0YJ0upQKUWHh/view?usp=drive_link)
+Puedes ver la demo del proyecto en el siguiente [enlace a Google Drive](https://drive.google.com/file/d/1gtAoT-P3cbvDASFbRegV0YJ0upQKUWHh/view?usp=drive_link).
 
 
