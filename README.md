@@ -148,7 +148,8 @@ Para interactuar con los endpoints, puedes acceder a la documentación completa 
 
 ### 🎬 Demo
 
-[![Ver Video](https://drive.google.com/file/d/1gtAoT-P3cbvDASFbRegV0YJ0upQKUWHh/view?usp=sharing)
+[Ver Video en Google Drive](https://drive.google.com/file/d/1gtAoT-P3cbvDASFbRegV0YJ0upQKUWHh/view?usp=sharing)
+
 
 
 
