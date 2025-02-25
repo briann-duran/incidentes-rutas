@@ -146,8 +146,9 @@ Para interactuar con los endpoints, puedes acceder a la documentación completa 
 
 ![image](https://github.com/user-attachments/assets/146bdd35-867e-498d-8048-aeb94bd2e08c)
 
-### Demo
+### 🎬 Demo
 
-Puedes ver la demo del proyecto en el siguiente [![Ver Video]([https://via.placeholder.com/800x450.png?text=Click+para+ver+el+video)](https://drive.google.com/file/d/1gtAoT-P3cbvDASFbRegV0YJ0upQKUWHh/view?usp=drive_link](https://youtu.be/UqVV1G2M_LI)).
+[![Ver Video](https://img.youtube.com/vi/UqVV1G2M_LI/0.jpg)](https://youtu.be/UqVV1G2M_LI)
+
 
 
